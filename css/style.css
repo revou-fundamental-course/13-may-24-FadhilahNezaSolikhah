@@ -1,24 +1,85 @@
-.section-content {
-    background-color: brown;
-    text-align: center;
-    color: aquamarine;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-.section-content>h3 {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
+    padding: 0;
 }
 
-#switch-keliling {
-    width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: white;
-    border: 0px;
-    color: blue;
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-.formula-img {
+.header {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.button-group button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-group button:hover {
+    background-color: #0056b3;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
 }
