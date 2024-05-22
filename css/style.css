@@ -1,0 +1,24 @@
+.section-content {
+    background-color: brown;
+    text-align: center;
+    color: aquamarine;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.section-content>h3 {
+    margin: 0;
+}
+
+#switch-keliling {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+    border: 0px;
+    color: blue;
+}
+
+.formula-img {
+    text-align: center;
+}
